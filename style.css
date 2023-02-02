@@ -84,9 +84,11 @@
 
 
   #Hero button:hover {
-      background-color: black;
+      background-color: #1b4b54;
       /* Green */
       color: white;
+      border: 1px solid #f4b31a92;
+
   }
 
   #Hero h1 {
@@ -293,18 +295,17 @@ input {
       align-items: center;
       display: flex;
       font-size: 15px;
-      background-color: rgb(255, 255, 255);
       padding: 8px 20px;
       font-weight: bold;
       border: 1px solid #1b4b54;
-      color: #1b4b54;
-
+      color: white;
+      background-color: #1b4b54;
   }
 
 
   #forms .button:hover {
-      background-color: #1b4b54;
-      color: white;
+      color: #1b4b54;
+      background-color: rgb(255, 255, 255);
   }
 
 footer {
