@@ -1,0 +1,282 @@
+  @import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Lobster&family=Roboto:wght@100;400&display=swap');
+
+  body {
+      background-color: #ffffff;
+      padding: 0;
+      margin: 0;
+  }
+
+  .container {
+      width: 80%;
+      margin: 0 auto;
+      overflow: hidden;
+  }
+
+  ul {
+      margin: 0;
+      padding: 0;
+  }
+
+  /* navbar */
+  header {
+      background: #1b4b54;
+      color: #ffffff;
+      padding: 10px 0;
+  }
+
+  header a {
+      color: white;
+      font-size: 20px;
+      text-decoration: none;
+  }
+
+  header li {
+      font-weight: bold;
+      display: inline;
+      padding: 0 20px;
+  }
+
+  #caption {
+      float: left;
+  }
+
+  #caption h1 {
+      margin: 0;
+  }
+
+  header nav {
+      float: right;
+      margin-top: 10px;
+  }
+
+
+  header .logo {
+      color: #F4B41A;
+      font-weight: bold;
+  }
+
+  header a:hover {
+      color: #F4B41A;
+  }
+
+  /* Hero Section */
+  #Hero {
+      min-height: 500px;
+      background-image: url('img/vecteezy_office-desk-table-top-view-with-office-supplies_3841398.jpg');
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: cover;
+      color: rgb(0, 0, 0);
+  }
+
+  #Hero button {
+      display: flex;
+      align-items: center;
+      margin: auto;
+      font-size: 19px;
+      background-color: white;
+      padding: 10px 20px;
+      font-weight: bold;
+      border: 1px solid rgb(81, 59, 4);
+  }
+
+
+  #Hero button:hover {
+      background-color: black;
+      /* Green */
+      color: white;
+  }
+
+  #Hero h1 {
+    margin-top: 0%;
+      margin-bottom: 0;
+      font-size: 75px;
+      font-family: 'Dancing Script', cursive;
+      color: #1b4b54;
+      text-align: center;
+  }
+  #Hero h4 {
+    margin-top: 100px;
+    font-size: 25px;
+    margin-bottom: 0;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+}
+
+  #Heading h2 {
+      margin-top: 10px;
+      font-size: 75px;
+      font-family: 'Abril Fatface', cursive;
+      margin-bottom: 20px;
+  }
+
+  /* search section  */
+  #search {
+      padding: 5px;
+      background: #1b4b54;
+  }
+
+  /* About Section  */
+  #About {
+      padding: 120px 0;
+      background-color: white;
+  }
+
+  #About h2 {
+      font-family: 'Roboto', sans-serif;
+      font-size: 40px;
+      color: #1b4b54;
+  }
+
+  .about-box1 {
+      float: left;
+      padding: 10px;
+      width: 20%;
+  }
+
+  .about-box1 img {
+      margin: auto;
+      display: block;
+  }
+
+
+  .about-box2 {
+      float: right;
+      text-align: justify;
+      padding: 10px;
+      width: 60%;
+  }
+
+  #About button {
+      margin: auto;
+      font-size: 15px;
+      background-color: rgb(255, 255, 255);
+      padding: 8px 20px;
+      font-weight: bold;
+      border: 1px solid #1b4b54;
+      color: #1b4b54;
+
+  }
+
+
+  #About button:hover {
+      background-color: #1b4b54;
+      color: white;
+  }
+
+
+
+  /* skills section  */
+  #skills {
+      padding: 70px 0;
+      background-color: #EAFDFC;
+
+  }
+
+  .card {
+      background: #fff;
+      border-radius: 2px;
+      display: inline-block;
+      margin: 1rem;
+      position: relative;
+  }
+
+  .card-1 {
+      box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+      transition: all 0.3s cubic-bezier(.25, .8, .25, 1);
+  }
+
+  .card-1:hover {
+      box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+  }
+
+  .box {
+      float: left;
+      text-align: center;
+      padding: 10px;
+      width: 28%;
+  }
+
+  #skills h2 {
+      color: #1b4b54;
+      text-align: center;
+      font-family: 'Roboto', sans-serif;
+      font-size: 40px;
+  }
+
+  #skills .box h3 {
+      font-family: 'Dancing Script', cursive;
+      font-weight: bolder;
+      font-size: 30px;
+  }
+
+  #skills .box p {
+      font-family: 'Roboto', sans-serif;
+      font-size: 14px;
+      text-align: justify;
+      padding: 10px;
+  }
+
+  /* slogan section  */
+  /* #slogan h2 {
+      text-align: center;
+      font-size: 55px;
+      font-weight: bold;
+      color: #a57505;
+      margin-top: 70px;
+      margin-bottom: 50px;
+  }
+
+  #slogan p {
+      text-align: center;
+      font-size: 25px;
+      font-family: 'Lobster', cursive;
+  }
+
+  slogan h4 {
+      text-align: center;
+      font-size: 45px;
+      font-weight: bold;
+      font-family: 'Abril Fatface', cursive;
+  } */
+
+  /* form field  */
+  #forms h4 {
+    font-family: 'Roboto', sans-serif;
+      text-align: center;
+      font-size: 30px;
+      font-weight: bold;
+      margin-top: 20px;
+      margin-bottom: 10px;
+  }
+
+  #forms {
+      margin-left: 30%;
+      margin-right: 30%;
+      padding: 70px;
+      text-align: center;
+  }
+
+  #forms .form-group {
+      padding-bottom: 15px;
+      font-size: 20px;
+      color: #1b4b54;
+      font-weight: bold;
+  }
+
+  #forms label {
+      /* display: block; */
+  }
+
+  footer {
+      padding: 20px;
+      margin-top: 20px;
+      color: white;
+      background-color: black;
+      text-align: center;
+  }
+
+
+  #slogan button {
+      align-items: center;
+  }
